@@ -1,0 +1,77 @@
+body{
+    background: rgb(255,0,0);
+    background: -moz-linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#ffffff",GradientType=0);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.jumbotron {
+    background-color:#ff6161;
+    border-radius: 9px;
+}
+.header-title {
+    font-weight: bolder;
+    color:aliceblue;
+}
+.header-title:hover {
+    text-decoration: none;
+    font-size: 21px;
+    transition: 300ms;
+}
+.header-title:not(:hover) {
+    transition: 300ms;
+}
+.logoimage {
+    position: fixed;
+    width: 100px;
+    margin: 10px 0 0 50px;
+}
+header {
+    text-align: center;
+    position:relative;
+    padding: 15px 0 5px 5px ;
+    font-size: 20px;
+}
+.imagelogo {
+    margin-top: 180px;
+    margin-left: -50px;
+    width: 500px;
+}
+.card {
+    margin-top: 20px;
+}
+.card:last-child {
+    margin-bottom: 20px;
+}
+.card-img-top {
+    width: 270px;
+}
+.card-img-top:hover {
+    position: relavite;
+    width: 286px;
+    transition: 300ms;
+}
+.card-img-top:not(:hover) {
+    transition: 300ms;
+}
+.hakkimizda {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.card-text.text-arial {
+    margin: 20px 0 20px 0;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.hero {
+    width: 500px;
+}
+.btn.btn-danger {
+    width: 200px;
+}
