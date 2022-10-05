@@ -1,2 +1,2 @@
 # bootstrap-odev
-# patika.dev
+# https://app.patika.dev/
